@@ -18,7 +18,6 @@ async function loadAPI(location) {
                         <div class="card rounded-end-0 text-white border-0 h-100">
                             <div class="card-header rounded-end-0 placeholder-glow bg-custom-dark-subtle d-flex justify-content-between">
                                 <span class="placeholder col-12 col-lg-4"></span>
-                                <span class="placeholder col-12 col-lg-4"></span>
                             </div>
                             <div class="card-body bg-custom-dark">
                                 <h5 class="card-title placeholder-glow">
