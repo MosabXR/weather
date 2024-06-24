@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-custom-dark-subtle py-5">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                    <span class="text-white">Weather</span>
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto d-flex gap-5 py-5 py-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-4 text-white active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill text-white px-4" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill text-white px-4" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill text-white px-4" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill text-white px-4" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-5 bg-custom-dark">
+            <div class="background-image"></div>
+            <div class="container">
+                <div class="form-group position-relative my-3 mb-5">
+                    <input type="text" id="location-field" class="form-control  rounded-pill bg-custom-dark text-white p-3" placeholder="Find your location...">
+                    <button class="btn btn-custom-primary position-absolute top-50 end-0 translate-middle-y me-2 px-5 rounded-pill">Find</button>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-4">
+                        <div class="card rounded-end-0 text-white border-0">
+                            <div class="card-header rounded-end-0 placeholder-glow bg-custom-dark-subtle d-flex justify-content-between">
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                            </div>
+                            <div class="card-body bg-custom-dark">
+                                <h5 class="card-title placeholder-glow">
+                                    <span class="placeholder col-6"></span>
+                                  </h5>
+                                <div class="degree placeholder-glow">
+                                    <div class="num">
+                                        <span class="placeholder col-4"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer placeholder-glow rounded-end-0 bg-custom-dark">
+                                <span class="placeholder col-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card rounded-0 text-white border-0">
+                            <div class="card-header rounded-0 placeholder-glow bg-custom-dark-subtle d-flex justify-content-center">
+                                <span class="placeholder col-4"></span>
+                            </div>
+                            <div class="card-body bg-custom-dark">
+                                <h5 class="card-title placeholder-glow">
+                                    <span class="placeholder col-6"></span>
+                                  </h5>
+                                <div class="degree placeholder-glow">
+                                    <div class="num">
+                                        <span class="placeholder col-4"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer placeholder-glow rounded-0 bg-custom-dark">
+                                <span class="placeholder col-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card rounded-start-0 text-white border-0">
+                            <div class="card-header rounded-start-0 placeholder-glow bg-custom-dark-subtle d-flex justify-content-center">
+                                <span class="placeholder col-4"></span>
+                            </div>
+                            <div class="card-body bg-custom-dark">
+                                <h5 class="card-title placeholder-glow">
+                                    <span class="placeholder col-6"></span>
+                                  </h5>
+                                <div class="degree placeholder-glow">
+                                    <div class="num">
+                                        <span class="placeholder col-4"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer placeholder-glow rounded-start-0 bg-custom-dark">
+                                <span class="placeholder col-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-custom-dark-subtle py-5">
+            <div class="container d-flex flex-wrap flex-column flex-md-row align-content-center gap-2">
+                <div class="subscription flex-grow-1">
+                    <form>
+                        <div class="form-group position-relative mb-3">
+                            <input type="email" class="form-control bg-custom-dark text-white rounded-pill py-3" placeholder="Enter your email to subscribe...">
+                            <button type="submit" class="btn btn-custom-primary position-absolute rounded-pill top-50 end-0 translate-middle-y me-2 px-3 px-md-5">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="socials  d-flex justify-content-center align-items-center gap-2 text-custom-primary mb-3">
+                    <span>
+                        <i class="fa-brands fa-facebook"></i>
+                    </span>
+                    <span class="fa-brands fa-twitter"></span>
+                    <span class="fa-brands fa-google"></span>
+                    <span class="fa-brands fa-pinterest"></span>
+                </div>
+                <p class="text-white mb-5 pb-3 w-100">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

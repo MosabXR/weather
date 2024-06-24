@@ -1,0 +1,100 @@
+:root {
+    --custom-dark:#1E202B;
+    --custom-dark-subtle:#262936;
+    --custom-dark-light:#323544;
+    --custom-dark-regular:#2D303D;
+    --custom-dark-bold:#222530;
+    --custom-blue:#009AD8;
+}
+
+.bg-custom-dark {
+    background-color: var(--custom-dark) !important;
+}
+
+.bg-custom-dark-subtle {
+    background-color: var(--custom-dark-subtle) !important;
+}
+
+.bg-custom-dark-light {
+    background-color: var(--custom-dark-light) !important;
+}
+
+.bg-custom-dark-regular {
+    background-color: var(--custom-dark-regular) !important;
+}
+
+.bg-custom-dark-bold {
+    background-color: var(--custom-dark-bold) !important;
+}
+
+.btn-custom-primary {
+    background-color: var(--custom-blue) !important;
+    color: #FFF !important;
+}
+
+.text-custom-primary {
+    color: var(--custom-blue) !important;
+}
+
+.form-control {
+    border-color: var(--custom-dark) !important;
+}
+
+.form-control::placeholder {
+    color: #FFF !important;
+}
+
+nav .active {
+    color: var(--custom-blue) !important;
+    border: 2px solid var(--custom-blue) !important;
+}
+
+nav .nav-link {
+    border: 2px solid transparent;
+}
+
+nav .nav-link:hover {
+    color: var(--custom-blue) !important;
+    border: 2px solid var(--custom-blue) !important;
+}
+
+section {
+    /* background: url('../img/banner.png') center/cover no-repeat; */
+    position: relative;
+}
+
+section .background-image {
+    width: 100%;
+    height: 50%;
+    background: url('../img/banner.png') center/cover no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}   
+
+.big-num {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.row {
+    min-height: 20rem;
+}
+
+.socials span {
+    background: var(--custom-dark);
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.socials span:hover {
+    background-color: var(--custom-blue);
+    color: #FFF;
+}
