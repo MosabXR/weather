@@ -1,6 +1,6 @@
 'use strict';
 
-const baseURL = `https://api.weatherapi.com/v1/forecast.json?key=47fa130a980a43258cc222102242911&days=3&aqi=no&alerts=no`;
+const baseURL = `https://api.weatherapi.com/v1/forecast.json?key=47fa130a980a43258cc222102242911&days=3&aqi=no&alerts=yes`;
 const weatherContainer = document.querySelector('.row');
 
 async function loadAPI(location) {
